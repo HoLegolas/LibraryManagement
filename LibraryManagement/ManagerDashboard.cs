@@ -1,5 +1,4 @@
-﻿using QLThuVien.BUS;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,16 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QLThuVien
+namespace LibraryManagement
 {
-    public partial class Form1 : Form
+    public partial class ManagerDashboard : Form
     {
-        public Form1()
+        public ManagerDashboard()
         {
-           
             InitializeComponent();
-            SachBUS sachBUS = new SachBUS();
-            sachDGV.DataSource = sachBUS.readAll();
         }
     }
 }

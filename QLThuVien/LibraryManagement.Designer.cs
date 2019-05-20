@@ -1,6 +1,6 @@
 ﻿namespace QLThuVien
 {
-    partial class Form1
+    partial class LibraryManagement
     {
         /// <summary>
         /// Required designer variable.
@@ -35,20 +35,23 @@
             // sachDGV
             // 
             this.sachDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.sachDGV.Location = new System.Drawing.Point(4, 5);
+            this.sachDGV.Location = new System.Drawing.Point(3, 4);
+            this.sachDGV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sachDGV.Name = "sachDGV";
             this.sachDGV.RowTemplate.Height = 24;
-            this.sachDGV.Size = new System.Drawing.Size(1128, 516);
+            this.sachDGV.Size = new System.Drawing.Size(846, 419);
             this.sachDGV.TabIndex = 0;
+            this.sachDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.sachDGV_CellContentClick);
             // 
-            // Form1
+            // LibraryManagement
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1144, 533);
+            this.ClientSize = new System.Drawing.Size(858, 433);
             this.Controls.Add(this.sachDGV);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "LibraryManagement";
+            this.Text = "LibraryManagement";
             ((System.ComponentModel.ISupportInitialize)(this.sachDGV)).EndInit();
             this.ResumeLayout(false);
 

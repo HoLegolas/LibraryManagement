@@ -8,3 +8,13 @@ C:\Users\Leon\source\repos\QLThuVien\QLThuVien\bin\Debug\QLThuVien.pdb
 C:\Users\Leon\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.exe
 C:\Users\Leon\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.pdb
 C:\Users\Leon\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Form1.resources
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\QLThuVien\bin\Debug\QLThuVien.exe.config
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\QLThuVien\bin\Debug\QLThuVien.exe
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\QLThuVien\bin\Debug\QLThuVien.pdb
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\QLThuVien\obj\Debug\QLThuVien.csprojAssemblyReference.cache
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\QLThuVien\obj\Debug\QLThuVien.LibraryManagement.resources
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\QLThuVien\obj\Debug\QLThuVien.Properties.Resources.resources
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\QLThuVien\obj\Debug\QLThuVien.csproj.GenerateResource.cache
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\QLThuVien\obj\Debug\QLThuVien.csproj.CoreCompileInputs.cache
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\QLThuVien\obj\Debug\QLThuVien.exe
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\QLThuVien\obj\Debug\QLThuVien.pdb

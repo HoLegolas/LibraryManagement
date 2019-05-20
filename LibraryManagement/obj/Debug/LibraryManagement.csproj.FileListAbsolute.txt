@@ -1,0 +1,10 @@
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagement.exe
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagement.exe.config
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.LibraryManagement.resources
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.Properties.Resources.resources
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csproj.GenerateResource.cache
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csproj.CoreCompileInputs.cache
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.exe
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.pdb
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagement.pdb
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csprojAssemblyReference.cache

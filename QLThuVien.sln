@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLThuVien", "QLThuVien\QLThuVien.csproj", "{E6D45268-631B-4C09-A0A9-D694497532DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagement", "LibraryManagement\LibraryManagement.csproj", "{F6612255-1C9F-4695-926E-6C4D77383A01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E6D45268-631B-4C09-A0A9-D694497532DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6D45268-631B-4C09-A0A9-D694497532DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6D45268-631B-4C09-A0A9-D694497532DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6612255-1C9F-4695-926E-6C4D77383A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6612255-1C9F-4695-926E-6C4D77383A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6612255-1C9F-4695-926E-6C4D77383A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6612255-1C9F-4695-926E-6C4D77383A01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
