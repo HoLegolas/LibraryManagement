@@ -47,7 +47,7 @@ namespace LibraryManagement.DAO
             return data;
         }
 
-        public int ExcuteNonQuery(string query, object[] parameters = null)
+        public static int ExcuteNonQuery(string query, object[] parameters = null)
         {
             int data = 0;
             using (SqlConnection connection = new SqlConnection(path))
@@ -77,7 +77,7 @@ namespace LibraryManagement.DAO
             return data;
         }
 
-        public object ExcuteScalar(string query, object[] parameters = null)
+        public static object ExcuteScalar(string query, object[] parameters = null)
         {
             object data = 0;
             using (SqlConnection connection = new SqlConnection(path))

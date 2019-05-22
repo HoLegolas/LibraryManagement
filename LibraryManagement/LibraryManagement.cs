@@ -14,6 +14,9 @@ namespace LibraryManagement
 {
     public partial class LibraryManagement : Form
     {
+        public delegate void AdminId(String id);
+        public event AdminId GetAdminId  = null;
+
         public LibraryManagement()
         {
             InitializeComponent();
@@ -21,7 +24,7 @@ namespace LibraryManagement
 
         private void LibraryManagement_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -67,7 +70,15 @@ namespace LibraryManagement
                             admin.Password = row["password"].ToString();
 
                             MessageBox.Show("Hello Admin ^.^");
+
+                            if (GetAdminId != null)
+                            {
+                                GetAdminId(admin.MaNV);
+                            }
+
                             var managerdb = new ManagerDashboard();
+                            managerdb.manv = admin.MaNV;
+                            managerdb.pos = admin.ChucVu;
                             this.Hide();
                             managerdb.ShowDialog();
                             this.Close();

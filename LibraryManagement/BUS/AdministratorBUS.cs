@@ -1,4 +1,5 @@
 ﻿using LibraryManagement.DAO;
+using LibraryManagement.DTO;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -13,6 +14,16 @@ namespace LibraryManagement.BUS
         public DataTable readAll()
         {
             return AdministratorDAO.readAll();
+        }
+
+        public void insert(AdministratorDTO admin)
+        {
+            AdministratorDAO.insert(admin);
+        }
+
+        public String getPosition(int pos)
+        {
+            return AdministratorDAO.getPosition(pos);
         }
     }
 }

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddAdministratorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAdministratorForm.Designer.cs">
+      <DependentUpon>AddAdministratorForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="BUS\AdministratorBUS.cs" />
     <Compile Include="DAO\AdministratorDAO.cs" />
     <Compile Include="DTO\AdministratorDTO.cs" />
@@ -64,8 +70,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddAdministratorForm.resx">
+      <DependentUpon>AddAdministratorForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LibraryManagement.resx">
       <DependentUpon>LibraryManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerDashboard.resx">
+      <DependentUpon>ManagerDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

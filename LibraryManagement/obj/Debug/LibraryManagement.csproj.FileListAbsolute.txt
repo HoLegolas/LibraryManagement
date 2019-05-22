@@ -8,3 +8,5 @@ C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\obj\Debug\Lib
 C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.pdb
 C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagement.pdb
 C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csprojAssemblyReference.cache
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.ManagerDashboard.resources
+C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.AddAdministratorForm.resources
