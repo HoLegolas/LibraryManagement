@@ -10,3 +10,16 @@ C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\bin\Debug\Lib
 C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csprojAssemblyReference.cache
 C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.ManagerDashboard.resources
 C:\Users\LAKE\Documents\GitHub\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.AddAdministratorForm.resources
+E:\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagement.exe.config
+E:\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagement.exe
+E:\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagement.pdb
+E:\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csprojAssemblyReference.cache
+E:\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.AddAdministratorForm.resources
+E:\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.LibraryManagement.resources
+E:\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.ManagerDashboard.resources
+E:\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.Properties.Resources.resources
+E:\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.Reader.resources
+E:\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csproj.GenerateResource.cache
+E:\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csproj.CoreCompileInputs.cache
+E:\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.exe
+E:\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.pdb

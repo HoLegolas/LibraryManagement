@@ -43,6 +43,10 @@ namespace LibraryManagement
                 if (readerLogin.Checked)
                 {
                     MessageBox.Show("Hello Reader ^.^");
+                    var reader = new Reader(txtusername.Text);
+                    this.Hide();
+                    reader.ShowDialog();
+                    this.Close();
                 }
                 else
                 {

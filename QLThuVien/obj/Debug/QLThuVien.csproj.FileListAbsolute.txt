@@ -18,3 +18,13 @@ C:\Users\LAKE\Documents\GitHub\LibraryManagement\QLThuVien\obj\Debug\QLThuVien.c
 C:\Users\LAKE\Documents\GitHub\LibraryManagement\QLThuVien\obj\Debug\QLThuVien.csproj.CoreCompileInputs.cache
 C:\Users\LAKE\Documents\GitHub\LibraryManagement\QLThuVien\obj\Debug\QLThuVien.exe
 C:\Users\LAKE\Documents\GitHub\LibraryManagement\QLThuVien\obj\Debug\QLThuVien.pdb
+E:\LibraryManagement\QLThuVien\bin\Debug\QLThuVien.exe.config
+E:\LibraryManagement\QLThuVien\bin\Debug\QLThuVien.exe
+E:\LibraryManagement\QLThuVien\bin\Debug\QLThuVien.pdb
+E:\LibraryManagement\QLThuVien\obj\Debug\QLThuVien.csprojAssemblyReference.cache
+E:\LibraryManagement\QLThuVien\obj\Debug\QLThuVien.LibraryManagement.resources
+E:\LibraryManagement\QLThuVien\obj\Debug\QLThuVien.Properties.Resources.resources
+E:\LibraryManagement\QLThuVien\obj\Debug\QLThuVien.csproj.GenerateResource.cache
+E:\LibraryManagement\QLThuVien\obj\Debug\QLThuVien.csproj.CoreCompileInputs.cache
+E:\LibraryManagement\QLThuVien\obj\Debug\QLThuVien.exe
+E:\LibraryManagement\QLThuVien\obj\Debug\QLThuVien.pdb
