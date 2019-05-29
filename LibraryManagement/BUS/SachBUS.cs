@@ -14,5 +14,16 @@ namespace QLThuVien.BUS
         {
             return SachDAO.readAll();
         }
+
+        public DataTable readWithCatID(int CatID)
+        {
+            return SachDAO.readWithCatID(CatID);
+        }
+
+        public DataTable findWithName(String Name)
+        {
+            return SachDAO.findWithName(Name);
+
+        }
     }
 }

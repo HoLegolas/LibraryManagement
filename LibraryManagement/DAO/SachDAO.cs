@@ -17,5 +17,23 @@ namespace QLThuVien.DAO
             
             return result;
         }
+
+        public static DataTable readWithCatID(int CatID)
+        {
+            string sql = String.Format("select * from SACH where LOAI={0}",CatID);
+            var result = ProcessData.ExcuteQuery(sql);
+
+            return result;
+
+        }
+
+        public static DataTable findWithName(String Name)
+        {
+            string sql = String.Format("select * from SACH where TENSACH LIKE N'%{0}%'", Name);
+            var result = ProcessData.ExcuteQuery(sql);
+
+            return result;
+
+        }
     }
 }
