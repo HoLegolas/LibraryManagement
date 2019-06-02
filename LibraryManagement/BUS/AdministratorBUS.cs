@@ -25,5 +25,15 @@ namespace LibraryManagement.BUS
         {
             return AdministratorDAO.getPosition(pos);
         }
+
+        public void update(AdministratorDTO admin)
+        {
+            AdministratorDAO.update(admin);
+        }
+        
+        public void delete(string manv)
+        {
+            AdministratorDAO.delete(manv);
+        }
     }
 }

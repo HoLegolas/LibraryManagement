@@ -73,19 +73,33 @@ namespace LibraryManagement
                             admin.UserName = row["username"].ToString();
                             admin.Password = row["password"].ToString();
 
-                            MessageBox.Show("Hello Admin ^.^");
-
                             if (GetAdminId != null)
                             {
                                 GetAdminId(admin.MaNV);
                             }
 
-                            var managerdb = new ManagerDashboard();
-                            managerdb.manv = admin.MaNV;
-                            managerdb.pos = admin.ChucVu;
-                            this.Hide();
-                            managerdb.ShowDialog();
-                            this.Close();
+                            if (admin.ChucVu == 0)
+                            {
+                                var managerdb = new ManagerDashboard();
+                                managerdb.manv = admin.MaNV;
+                                managerdb.pos = admin.ChucVu;
+                                this.Hide();
+                                managerdb.ShowDialog();
+                                this.Close();
+                            } else if (admin.ChucVu == 1)
+                            {
+                                MessageBox.Show("Reader management");
+                            } else if (admin.ChucVu == 2) {
+                                var bookdb = new BookManagement();
+                                bookdb.stockkeeperid = admin.MaNV;
+                                this.Hide();
+                                bookdb.ShowDialog();
+                                this.Close();   
+                            } else
+                            {
+                                MessageBox.Show("Punishment");
+                            }
+                            
                         }
                     }
                     MessageBox.Show("[!] Wrong username or password typed in. Try again");

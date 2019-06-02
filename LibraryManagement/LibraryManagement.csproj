@@ -52,12 +52,27 @@
     <Compile Include="AddAdministratorForm.Designer.cs">
       <DependentUpon>AddAdministratorForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddBookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBookForm.Designer.cs">
+      <DependentUpon>AddBookForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookManagement.Designer.cs">
+      <DependentUpon>BookManagement.cs</DependentUpon>
+    </Compile>
     <Compile Include="BUS\AdministratorBUS.cs" />
+    <Compile Include="BUS\BookBUS.cs" />
     <Compile Include="BUS\SachBUS.cs" />
     <Compile Include="DAO\AdministratorDAO.cs" />
+    <Compile Include="DAO\BookDAO.cs" />
     <Compile Include="DAO\SachDAO.cs" />
     <Compile Include="DTO\AdministratorDTO.cs" />
     <Compile Include="DAO\ProcessData.cs" />
+    <Compile Include="DTO\BookDTO.cs" />
     <Compile Include="DTO\Sach.cs" />
     <Compile Include="LibraryManagement.cs">
       <SubType>Form</SubType>
@@ -81,6 +96,12 @@
     </Compile>
     <EmbeddedResource Include="AddAdministratorForm.resx">
       <DependentUpon>AddAdministratorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddBookForm.resx">
+      <DependentUpon>AddBookForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookManagement.resx">
+      <DependentUpon>BookManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LibraryManagement.resx">
       <DependentUpon>LibraryManagement.cs</DependentUpon>
