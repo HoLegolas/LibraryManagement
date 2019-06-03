@@ -58,21 +58,45 @@
     <Compile Include="AddBookForm.Designer.cs">
       <DependentUpon>AddBookForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddBorrowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBorrowForm.Designer.cs">
+      <DependentUpon>AddBorrowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddReaderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddReaderForm.Designer.cs">
+      <DependentUpon>AddReaderForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="BookManagement.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="BookManagement.Designer.cs">
       <DependentUpon>BookManagement.cs</DependentUpon>
     </Compile>
+    <Compile Include="BorrowManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorrowManagement.Designer.cs">
+      <DependentUpon>BorrowManagement.cs</DependentUpon>
+    </Compile>
     <Compile Include="BUS\AdministratorBUS.cs" />
     <Compile Include="BUS\BookBUS.cs" />
+    <Compile Include="BUS\BorrowBUS.cs" />
+    <Compile Include="BUS\ReaderBUS.cs" />
     <Compile Include="BUS\SachBUS.cs" />
     <Compile Include="DAO\AdministratorDAO.cs" />
     <Compile Include="DAO\BookDAO.cs" />
+    <Compile Include="DAO\BorrowDAO.cs" />
+    <Compile Include="DAO\ReaderDAO.cs" />
     <Compile Include="DAO\SachDAO.cs" />
     <Compile Include="DTO\AdministratorDTO.cs" />
     <Compile Include="DAO\ProcessData.cs" />
     <Compile Include="DTO\BookDTO.cs" />
+    <Compile Include="DTO\BorrowDTO.cs" />
+    <Compile Include="DTO\ReaderDTO.cs" />
     <Compile Include="DTO\Sach.cs" />
     <Compile Include="LibraryManagement.cs">
       <SubType>Form</SubType>
@@ -94,14 +118,29 @@
     <Compile Include="Reader.Designer.cs">
       <DependentUpon>Reader.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReaderManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReaderManagement.Designer.cs">
+      <DependentUpon>ReaderManagement.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddAdministratorForm.resx">
       <DependentUpon>AddAdministratorForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddBookForm.resx">
       <DependentUpon>AddBookForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddBorrowForm.resx">
+      <DependentUpon>AddBorrowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddReaderForm.resx">
+      <DependentUpon>AddReaderForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BookManagement.resx">
       <DependentUpon>BookManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorrowManagement.resx">
+      <DependentUpon>BorrowManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LibraryManagement.resx">
       <DependentUpon>LibraryManagement.cs</DependentUpon>
@@ -121,6 +160,9 @@
     </Compile>
     <EmbeddedResource Include="Reader.resx">
       <DependentUpon>Reader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReaderManagement.resx">
+      <DependentUpon>ReaderManagement.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

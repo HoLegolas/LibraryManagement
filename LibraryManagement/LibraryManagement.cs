@@ -88,7 +88,11 @@ namespace LibraryManagement
                                 this.Close();
                             } else if (admin.ChucVu == 1)
                             {
-                                MessageBox.Show("Reader management");
+                                var readerdb = new ReaderManagement();
+                                readerdb.librarianid = admin.MaNV;
+                                this.Hide();
+                                readerdb.ShowDialog();
+                                this.Close();
                             } else if (admin.ChucVu == 2) {
                                 var bookdb = new BookManagement();
                                 bookdb.stockkeeperid = admin.MaNV;
