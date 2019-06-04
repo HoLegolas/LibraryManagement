@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -69,6 +70,12 @@
     </Compile>
     <Compile Include="AddReaderForm.Designer.cs">
       <DependentUpon>AddReaderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddReturnForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddReturnForm.Designer.cs">
+      <DependentUpon>AddReturnForm.cs</DependentUpon>
     </Compile>
     <Compile Include="BookManagement.cs">
       <SubType>Form</SubType>
@@ -124,6 +131,18 @@
     <Compile Include="ReaderManagement.Designer.cs">
       <DependentUpon>ReaderManagement.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReturnManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReturnManagement.Designer.cs">
+      <DependentUpon>ReturnManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatisticForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatisticForm.Designer.cs">
+      <DependentUpon>StatisticForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddAdministratorForm.resx">
       <DependentUpon>AddAdministratorForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +154,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddReaderForm.resx">
       <DependentUpon>AddReaderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddReturnForm.resx">
+      <DependentUpon>AddReturnForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BookManagement.resx">
       <DependentUpon>BookManagement.cs</DependentUpon>
@@ -163,6 +185,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ReaderManagement.resx">
       <DependentUpon>ReaderManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReturnManagement.resx">
+      <DependentUpon>ReturnManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticForm.resx">
+      <DependentUpon>StatisticForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

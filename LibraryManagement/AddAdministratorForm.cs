@@ -91,6 +91,9 @@ namespace LibraryManagement
             this.Close();
         }
 
+        private void label13_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

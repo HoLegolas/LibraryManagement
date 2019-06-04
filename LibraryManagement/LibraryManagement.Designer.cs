@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.loginlabel = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtusername = new System.Windows.Forms.TextBox();
@@ -40,6 +39,7 @@
             this.readerLogin = new System.Windows.Forms.RadioButton();
             this.adminLogin = new System.Windows.Forms.RadioButton();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,26 +49,17 @@
             this.loginlabel.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginlabel.Location = new System.Drawing.Point(400, 50);
             this.loginlabel.Name = "loginlabel";
-            this.loginlabel.Size = new System.Drawing.Size(52, 15);
+            this.loginlabel.Size = new System.Drawing.Size(67, 20);
             this.loginlabel.TabIndex = 0;
             this.loginlabel.Text = "LOGIN";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::LibraryManagement.Properties.Resources.login;
-            this.pictureBox1.Location = new System.Drawing.Point(377, 85);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(101, 90);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(200, 196);
+            this.label1.Location = new System.Drawing.Point(182, 196);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 18);
+            this.label1.Size = new System.Drawing.Size(85, 23);
             this.label1.TabIndex = 2;
             this.label1.Text = "username";
             // 
@@ -76,9 +67,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(200, 228);
+            this.label2.Location = new System.Drawing.Point(182, 228);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 18);
+            this.label2.Size = new System.Drawing.Size(85, 23);
             this.label2.TabIndex = 3;
             this.label2.Text = "password";
             // 
@@ -86,7 +77,7 @@
             // 
             this.txtusername.Location = new System.Drawing.Point(273, 196);
             this.txtusername.Name = "txtusername";
-            this.txtusername.Size = new System.Drawing.Size(330, 20);
+            this.txtusername.Size = new System.Drawing.Size(330, 22);
             this.txtusername.TabIndex = 4;
             // 
             // txtpassword
@@ -94,7 +85,7 @@
             this.txtpassword.Location = new System.Drawing.Point(273, 228);
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.PasswordChar = '*';
-            this.txtpassword.Size = new System.Drawing.Size(330, 20);
+            this.txtpassword.Size = new System.Drawing.Size(330, 22);
             this.txtpassword.TabIndex = 5;
             // 
             // btnLogin
@@ -131,7 +122,7 @@
             this.readerLogin.Checked = true;
             this.readerLogin.Location = new System.Drawing.Point(47, 25);
             this.readerLogin.Name = "readerLogin";
-            this.readerLogin.Size = new System.Drawing.Size(70, 17);
+            this.readerLogin.Size = new System.Drawing.Size(86, 21);
             this.readerLogin.TabIndex = 9;
             this.readerLogin.TabStop = true;
             this.readerLogin.Text = "READER";
@@ -142,7 +133,7 @@
             this.adminLogin.AutoSize = true;
             this.adminLogin.Location = new System.Drawing.Point(47, 50);
             this.adminLogin.Name = "adminLogin";
-            this.adminLogin.Size = new System.Drawing.Size(60, 17);
+            this.adminLogin.Size = new System.Drawing.Size(72, 21);
             this.adminLogin.TabIndex = 10;
             this.adminLogin.TabStop = true;
             this.adminLogin.Text = "ADMIN";
@@ -153,9 +144,18 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 13);
+            this.label3.Size = new System.Drawing.Size(74, 17);
             this.label3.TabIndex = 11;
             this.label3.Text = "Sign in as:";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::LibraryManagement.Properties.Resources.login;
+            this.pictureBox1.Location = new System.Drawing.Point(377, 85);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(101, 90);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // LibraryManagement
             // 
