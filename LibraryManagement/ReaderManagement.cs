@@ -104,5 +104,14 @@ namespace LibraryManagement
             borrowFrm.ShowDialog();
             this.Show();
         }
+
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+            var returnFrm = new ReturnManagement();
+            returnFrm.librarianid = librarianid;
+            this.Hide();
+            returnFrm.ShowDialog();
+            this.Show();
+        }
     }
 }

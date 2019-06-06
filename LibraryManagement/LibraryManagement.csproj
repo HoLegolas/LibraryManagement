@@ -93,17 +93,20 @@
     <Compile Include="BUS\BookBUS.cs" />
     <Compile Include="BUS\BorrowBUS.cs" />
     <Compile Include="BUS\ReaderBUS.cs" />
+    <Compile Include="BUS\ReturnBUS.cs" />
     <Compile Include="BUS\SachBUS.cs" />
     <Compile Include="DAO\AdministratorDAO.cs" />
     <Compile Include="DAO\BookDAO.cs" />
     <Compile Include="DAO\BorrowDAO.cs" />
     <Compile Include="DAO\ReaderDAO.cs" />
+    <Compile Include="DAO\ReturnDAO.cs" />
     <Compile Include="DAO\SachDAO.cs" />
     <Compile Include="DTO\AdministratorDTO.cs" />
     <Compile Include="DAO\ProcessData.cs" />
     <Compile Include="DTO\BookDTO.cs" />
     <Compile Include="DTO\BorrowDTO.cs" />
     <Compile Include="DTO\ReaderDTO.cs" />
+    <Compile Include="DTO\ReturnDTO.cs" />
     <Compile Include="DTO\Sach.cs" />
     <Compile Include="LibraryManagement.cs">
       <SubType>Form</SubType>

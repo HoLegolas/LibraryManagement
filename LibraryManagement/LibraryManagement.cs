@@ -42,11 +42,26 @@ namespace LibraryManagement
             {
                 if (readerLogin.Checked)
                 {
-                    MessageBox.Show("Hello Reader ^.^");
-                    var reader = new Reader(txtusername.Text);
-                    this.Hide();
-                    reader.ShowDialog();
-                    this.Close();
+                    ReaderBUS readerBUS = new ReaderBUS();
+                    var readerInfoDataTable = readerBUS.readAll();
+
+                    foreach (DataRow row in readerInfoDataTable.Rows)
+                    {
+                        if (row["username"].ToString() == txtusername.Text &&
+                            row["password"].ToString() == txtpassword.Text)
+                        {
+                            MessageBox.Show("Hello Reader ^.^");
+                            var reader = new Reader(txtusername.Text);
+                            this.Hide();
+                            reader.ShowDialog();
+                            this.Close();
+                        }
+                        else {
+                            MessageBox.Show("[!] Wrong username or password typed in. Try again");
+                        }
+                    }
+                    
+                   
                 }
                 else
                 {

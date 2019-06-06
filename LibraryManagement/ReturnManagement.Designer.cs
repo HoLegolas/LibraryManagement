@@ -34,46 +34,42 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.lblibrarian = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.gvBorrows = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.gvBorrows)).BeginInit();
+            this.gvReturns = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.gvReturns)).BeginInit();
             this.SuspendLayout();
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(876, 207);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBack.Location = new System.Drawing.Point(657, 168);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(100, 28);
+            this.btnBack.Size = new System.Drawing.Size(75, 23);
             this.btnBack.TabIndex = 13;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = true;
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(437, 207);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDelete.Location = new System.Drawing.Point(328, 168);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(100, 28);
+            this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 12;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(259, 208);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
+            this.btnUpdate.Location = new System.Drawing.Point(194, 169);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(100, 28);
+            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
             this.btnUpdate.TabIndex = 11;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(73, 210);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAdd.Location = new System.Drawing.Point(55, 171);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(100, 28);
+            this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 10;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -81,47 +77,46 @@
             // lblibrarian
             // 
             this.lblibrarian.AutoSize = true;
-            this.lblibrarian.Location = new System.Drawing.Point(69, 9);
-            this.lblibrarian.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblibrarian.Location = new System.Drawing.Point(52, 7);
             this.lblibrarian.Name = "lblibrarian";
-            this.lblibrarian.Size = new System.Drawing.Size(46, 17);
+            this.lblibrarian.Size = new System.Drawing.Size(35, 13);
             this.lblibrarian.TabIndex = 9;
             this.lblibrarian.Text = "label2";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(10, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(21, 17);
+            this.label1.Size = new System.Drawing.Size(18, 13);
             this.label1.TabIndex = 8;
             this.label1.Text = "ID";
             // 
-            // gvBorrows
+            // gvReturns
             // 
-            this.gvBorrows.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gvBorrows.Location = new System.Drawing.Point(12, 250);
-            this.gvBorrows.Margin = new System.Windows.Forms.Padding(4);
-            this.gvBorrows.Name = "gvBorrows";
-            this.gvBorrows.Size = new System.Drawing.Size(1019, 282);
-            this.gvBorrows.TabIndex = 7;
+            this.gvReturns.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gvReturns.Location = new System.Drawing.Point(9, 203);
+            this.gvReturns.Name = "gvReturns";
+            this.gvReturns.Size = new System.Drawing.Size(764, 229);
+            this.gvReturns.TabIndex = 7;
             // 
             // ReturnManagement
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1055, 539);
+            this.ClientSize = new System.Drawing.Size(791, 438);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.lblibrarian);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.gvBorrows);
+            this.Controls.Add(this.gvReturns);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ReturnManagement";
             this.Text = "ReturnManagement";
-            ((System.ComponentModel.ISupportInitialize)(this.gvBorrows)).EndInit();
+            this.Load += new System.EventHandler(this.ReturnManagement_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.gvReturns)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -135,6 +130,6 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Label lblibrarian;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView gvBorrows;
+        private System.Windows.Forms.DataGridView gvReturns;
     }
 }
