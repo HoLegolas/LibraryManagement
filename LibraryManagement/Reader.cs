@@ -14,6 +14,7 @@ namespace LibraryManagement
     public partial class Reader : Form
     {
         SachBUS sachBus = new SachBUS();
+        public bool isSignin = false;
         public String Name = "";
         public int id;
         public Reader(string name)
@@ -21,15 +22,26 @@ namespace LibraryManagement
             InitializeComponent();
             Name = name;
             loadSach();
+            if (isSignin == true)
+            {
+                button6.Text = "Sign out";
+            }
+        }
+
+        public Reader(string name, bool isSignIn)
+        {
+            InitializeComponent();
+            Name = name;
+            loadSach();
+            if (isSignIn == true)
+            {
+                button6.Text = "Sign out";
+            }
         }
 
         private void loadSach()
         {
-            
 
-            DataGridViewImageColumn imageColumn = new DataGridViewImageColumn();
-            imageColumn.HeaderText = "Image";
-            sachView.Columns.Add(imageColumn);
             sachView.DataSource = sachBus.readAll();
 
        
@@ -39,9 +51,6 @@ namespace LibraryManagement
 
         private void loadSachCategory(int CatID)
         {
-            DataGridViewImageColumn imageColumn = new DataGridViewImageColumn();
-            imageColumn.HeaderText = "Image";
-            sachView.Columns.Add(imageColumn);
 
             sachView.DataSource = sachBus.readWithCatID(CatID);
         }
@@ -78,11 +87,24 @@ namespace LibraryManagement
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DataGridViewImageColumn imageColumn = new DataGridViewImageColumn();
-            imageColumn.HeaderText = "Image";
-            sachView.Columns.Add(imageColumn);
 
             sachView.DataSource = sachBus.findWithName(txtFind.Text);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            var adrForm = new StatisticForm();
+            this.Hide();
+            adrForm.ShowDialog();
+            this.Close();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            var adrForm = new LibraryManagement();
+            this.Hide();
+            adrForm.ShowDialog();
+            this.Close();
         }
     }
 }

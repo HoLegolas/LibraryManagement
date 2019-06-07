@@ -113,5 +113,22 @@ namespace LibraryManagement
             returnFrm.ShowDialog();
             this.Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            var adrForm = new StatisticForm();
+            this.Hide();
+            adrForm.ShowDialog();
+            this.Show();
+           
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            var adrForm = new Reader("unknow");
+            this.Hide();
+            adrForm.ShowDialog();
+            this.Close();
+        }
     }
 }

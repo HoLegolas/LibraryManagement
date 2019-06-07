@@ -34,34 +34,40 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartBook = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.label1 = new System.Windows.Forms.Label();
-            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartBorrow = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.monthPick = new System.Windows.Forms.NumericUpDown();
             this.button2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.chartBook)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartBorrow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.monthPick)).BeginInit();
             this.SuspendLayout();
             // 
-            // chart1
+            // chartBook
             // 
             chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
+            this.chartBook.ChartAreas.Add(chartArea3);
             legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
-            this.chart1.Location = new System.Drawing.Point(67, 80);
-            this.chart1.Name = "chart1";
+            this.chartBook.Legends.Add(legend3);
+            this.chartBook.Location = new System.Drawing.Point(67, 80);
+            this.chartBook.Name = "chartBook";
+            this.chartBook.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
             series3.ChartArea = "ChartArea1";
             series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
             series3.Legend = "Legend1";
             series3.Name = "Series1";
-            this.chart1.Series.Add(series3);
-            this.chart1.Size = new System.Drawing.Size(300, 300);
-            this.chart1.TabIndex = 0;
-            this.chart1.Text = "chart1";
+            this.chartBook.Series.Add(series3);
+            this.chartBook.Size = new System.Drawing.Size(480, 434);
+            this.chartBook.TabIndex = 0;
+            this.chartBook.Text = "chart1";
+            this.chartBook.Click += new System.EventHandler(this.chart1_Click);
             // 
             // label1
             // 
@@ -73,22 +79,22 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Thống kê sách theo thể loại";
             // 
-            // chart2
+            // chartBorrow
             // 
             chartArea4.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea4);
+            this.chartBorrow.ChartAreas.Add(chartArea4);
             legend4.Name = "Legend1";
-            this.chart2.Legends.Add(legend4);
-            this.chart2.Location = new System.Drawing.Point(654, 80);
-            this.chart2.Name = "chart2";
+            this.chartBorrow.Legends.Add(legend4);
+            this.chartBorrow.Location = new System.Drawing.Point(654, 80);
+            this.chartBorrow.Name = "chartBorrow";
             series4.ChartArea = "ChartArea1";
             series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
             series4.Legend = "Legend1";
             series4.Name = "Series1";
-            this.chart2.Series.Add(series4);
-            this.chart2.Size = new System.Drawing.Size(300, 300);
-            this.chart2.TabIndex = 4;
-            this.chart2.Text = "chart2";
+            this.chartBorrow.Series.Add(series4);
+            this.chartBorrow.Size = new System.Drawing.Size(300, 300);
+            this.chartBorrow.TabIndex = 4;
+            this.chartBorrow.Text = "chart2";
             // 
             // label3
             // 
@@ -109,23 +115,23 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Chọn tháng";
             // 
-            // numericUpDown2
+            // monthPick
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(803, 401);
-            this.numericUpDown2.Maximum = new decimal(new int[] {
+            this.monthPick.Location = new System.Drawing.Point(803, 401);
+            this.monthPick.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.numericUpDown2.Minimum = new decimal(new int[] {
+            this.monthPick.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(120, 22);
-            this.numericUpDown2.TabIndex = 6;
-            this.numericUpDown2.Value = new decimal(new int[] {
+            this.monthPick.Name = "monthPick";
+            this.monthPick.Size = new System.Drawing.Size(120, 22);
+            this.monthPick.TabIndex = 6;
+            this.monthPick.Value = new decimal(new int[] {
             1,
             0,
             0,
@@ -139,24 +145,67 @@
             this.button2.TabIndex = 9;
             this.button2.Text = "Thống kê";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(8, 8);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(0, 0);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 12;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(966, 508);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(102, 40);
+            this.button5.TabIndex = 13;
+            this.button5.Text = "Close";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // StatisticForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1080, 560);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.numericUpDown2);
+            this.Controls.Add(this.monthPick);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.chart2);
+            this.Controls.Add(this.chartBorrow);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.chart1);
+            this.Controls.Add(this.chartBook);
             this.Name = "StatisticForm";
             this.Text = "StatisticForm";
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            this.Load += new System.EventHandler(this.StatisticForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.chartBook)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartBorrow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.monthPick)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -164,12 +213,16 @@
 
         #endregion
 
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartBook;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart2;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartBorrow;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.NumericUpDown monthPick;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }

@@ -89,5 +89,21 @@ namespace LibraryManagement
                 MessageBox.Show("Select a row to delete, pls!");
             }
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            var adrForm = new LibraryManagement();
+            this.Hide();
+            adrForm.ShowDialog();
+            this.Close();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            var adrForm = new StatisticForm();
+            this.Hide();
+            adrForm.ShowDialog();
+            this.Close();
+        }
     }
 }

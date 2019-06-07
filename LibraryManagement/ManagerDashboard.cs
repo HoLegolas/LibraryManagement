@@ -99,5 +99,21 @@ namespace LibraryManagement
                 }
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var adrForm = new StatisticForm();
+            this.Hide();
+            adrForm.ShowDialog();
+            this.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            var adrForm = new Reader("unknow");
+            this.Hide();
+            adrForm.ShowDialog();
+            this.Close();
+        }
     }
 }

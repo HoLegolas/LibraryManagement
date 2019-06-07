@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibraryManagement.DTO
 {
-    class ReturnDTO
+    public class ReturnDTO
     {
         private string _returnid;
         private string _readerid;

@@ -51,7 +51,7 @@ namespace LibraryManagement
                             row["password"].ToString() == txtpassword.Text)
                         {
                             MessageBox.Show("Hello Reader ^.^");
-                            var reader = new Reader(txtusername.Text);
+                            var reader = new Reader(txtusername.Text,true);
                             this.Hide();
                             reader.ShowDialog();
                             this.Close();

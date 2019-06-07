@@ -102,5 +102,21 @@ namespace LibraryManagement
             bookbus.update(book);
             gvBooks.DataSource = bookbus.readAll();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            var adrForm = new LibraryManagement();
+            this.Hide();
+            adrForm.ShowDialog();
+            this.Close();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            var adrForm = new StatisticForm();
+            this.Hide();
+            adrForm.ShowDialog();
+            this.Close();
+        }
     }
 }
