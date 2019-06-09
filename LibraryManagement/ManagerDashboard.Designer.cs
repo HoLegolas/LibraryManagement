@@ -40,6 +40,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.Home = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.staffGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -147,7 +148,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(758, 20);
+            this.button1.Location = new System.Drawing.Point(758, 8);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 49);
             this.button1.TabIndex = 43;
@@ -155,9 +156,20 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // Home
+            // 
+            this.Home.Location = new System.Drawing.Point(758, 63);
+            this.Home.Name = "Home";
+            this.Home.Size = new System.Drawing.Size(94, 49);
+            this.Home.TabIndex = 44;
+            this.Home.Text = "Home";
+            this.Home.UseVisualStyleBackColor = true;
+            this.Home.Click += new System.EventHandler(this.Home_Click);
+            // 
             // ManagerDashboard
             // 
             this.ClientSize = new System.Drawing.Size(864, 535);
+            this.Controls.Add(this.Home);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button7);
@@ -193,5 +205,6 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Home;
     }
 }

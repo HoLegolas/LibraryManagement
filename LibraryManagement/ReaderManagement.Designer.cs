@@ -38,6 +38,7 @@
             this.btnReturn = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.Home = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gvReaders)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,7 +46,7 @@
             // 
             this.gvReaders.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gvReaders.Location = new System.Drawing.Point(17, 250);
-            this.gvReaders.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gvReaders.Margin = new System.Windows.Forms.Padding(4);
             this.gvReaders.Name = "gvReaders";
             this.gvReaders.Size = new System.Drawing.Size(1033, 289);
             this.gvReaders.TabIndex = 0;
@@ -73,7 +74,7 @@
             // btnAdd
             // 
             this.btnAdd.Location = new System.Drawing.Point(21, 188);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(100, 28);
             this.btnAdd.TabIndex = 3;
@@ -84,7 +85,7 @@
             // btnUpdate
             // 
             this.btnUpdate.Location = new System.Drawing.Point(205, 187);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(100, 28);
             this.btnUpdate.TabIndex = 4;
@@ -95,7 +96,7 @@
             // btnDelete
             // 
             this.btnDelete.Location = new System.Drawing.Point(407, 186);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(100, 28);
             this.btnDelete.TabIndex = 5;
@@ -106,7 +107,7 @@
             // btnBorrow
             // 
             this.btnBorrow.Location = new System.Drawing.Point(764, 186);
-            this.btnBorrow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBorrow.Margin = new System.Windows.Forms.Padding(4);
             this.btnBorrow.Name = "btnBorrow";
             this.btnBorrow.Size = new System.Drawing.Size(123, 28);
             this.btnBorrow.TabIndex = 6;
@@ -117,7 +118,7 @@
             // btnReturn
             // 
             this.btnReturn.Location = new System.Drawing.Point(921, 186);
-            this.btnReturn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnReturn.Margin = new System.Windows.Forms.Padding(4);
             this.btnReturn.Name = "btnReturn";
             this.btnReturn.Size = new System.Drawing.Size(129, 28);
             this.btnReturn.TabIndex = 7;
@@ -145,11 +146,22 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // Home
+            // 
+            this.Home.Location = new System.Drawing.Point(956, 88);
+            this.Home.Name = "Home";
+            this.Home.Size = new System.Drawing.Size(94, 49);
+            this.Home.TabIndex = 39;
+            this.Home.Text = "Home";
+            this.Home.UseVisualStyleBackColor = true;
+            this.Home.Click += new System.EventHandler(this.Home_Click);
+            // 
             // ReaderManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.Home);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.btnReturn);
@@ -160,7 +172,7 @@
             this.Controls.Add(this.lbLibrarian);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.gvReaders);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ReaderManagement";
             this.Text = "ReaderManagement";
             this.Load += new System.EventHandler(this.ReaderManagement_Load);
@@ -182,5 +194,6 @@
         private System.Windows.Forms.Button btnReturn;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button Home;
     }
 }

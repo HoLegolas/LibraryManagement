@@ -36,6 +36,7 @@
             this.txtSKID = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.Home = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gvBooks)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,7 +44,7 @@
             // 
             this.gvBooks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gvBooks.Location = new System.Drawing.Point(16, 222);
-            this.gvBooks.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gvBooks.Margin = new System.Windows.Forms.Padding(4);
             this.gvBooks.Name = "gvBooks";
             this.gvBooks.Size = new System.Drawing.Size(1035, 318);
             this.gvBooks.TabIndex = 0;
@@ -52,7 +53,7 @@
             // btnAdd
             // 
             this.btnAdd.Location = new System.Drawing.Point(40, 138);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(100, 28);
             this.btnAdd.TabIndex = 1;
@@ -63,7 +64,7 @@
             // btnDelete
             // 
             this.btnDelete.Location = new System.Drawing.Point(220, 138);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(100, 28);
             this.btnDelete.TabIndex = 2;
@@ -74,7 +75,7 @@
             // btnUpdate
             // 
             this.btnUpdate.Location = new System.Drawing.Point(420, 138);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(100, 28);
             this.btnUpdate.TabIndex = 3;
@@ -122,11 +123,22 @@
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
+            // Home
+            // 
+            this.Home.Location = new System.Drawing.Point(957, 87);
+            this.Home.Name = "Home";
+            this.Home.Size = new System.Drawing.Size(94, 49);
+            this.Home.TabIndex = 41;
+            this.Home.Text = "Home";
+            this.Home.UseVisualStyleBackColor = true;
+            this.Home.Click += new System.EventHandler(this.Home_Click);
+            // 
             // BookManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.Home);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.txtSKID);
@@ -135,7 +147,7 @@
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.gvBooks);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "BookManagement";
             this.Text = "BookManagement";
             this.Load += new System.EventHandler(this.BookManagement_Load);
@@ -155,5 +167,6 @@
         private System.Windows.Forms.Label txtSKID;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button Home;
     }
 }

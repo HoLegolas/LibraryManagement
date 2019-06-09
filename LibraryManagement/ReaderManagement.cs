@@ -130,5 +130,13 @@ namespace LibraryManagement
             adrForm.ShowDialog();
             this.Close();
         }
+
+        private void Home_Click(object sender, EventArgs e)
+        {
+            var adrForm = new Reader(librarianid);
+            this.Hide();
+            adrForm.ShowDialog();
+            this.Close();
+        }
     }
 }

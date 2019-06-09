@@ -37,6 +37,7 @@
             this.gvReturns = new System.Windows.Forms.DataGridView();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.Home = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gvReturns)).BeginInit();
             this.SuspendLayout();
             // 
@@ -132,11 +133,22 @@
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
+            // Home
+            // 
+            this.Home.Location = new System.Drawing.Point(958, 87);
+            this.Home.Name = "Home";
+            this.Home.Size = new System.Drawing.Size(94, 49);
+            this.Home.TabIndex = 41;
+            this.Home.Text = "Home";
+            this.Home.UseVisualStyleBackColor = true;
+            this.Home.Click += new System.EventHandler(this.Home_Click);
+            // 
             // ReturnManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1055, 539);
+            this.Controls.Add(this.Home);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.btnBack);
@@ -167,5 +179,6 @@
         private System.Windows.Forms.DataGridView gvReturns;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button Home;
     }
 }

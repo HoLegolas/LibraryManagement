@@ -37,6 +37,7 @@
             this.btnBack = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.Home = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gvBorrows)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,7 +45,7 @@
             // 
             this.gvBorrows.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gvBorrows.Location = new System.Drawing.Point(16, 257);
-            this.gvBorrows.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gvBorrows.Margin = new System.Windows.Forms.Padding(4);
             this.gvBorrows.Name = "gvBorrows";
             this.gvBorrows.Size = new System.Drawing.Size(1019, 282);
             this.gvBorrows.TabIndex = 0;
@@ -72,7 +73,7 @@
             // btnAdd
             // 
             this.btnAdd.Location = new System.Drawing.Point(77, 217);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(100, 28);
             this.btnAdd.TabIndex = 3;
@@ -83,7 +84,7 @@
             // btnUpdate
             // 
             this.btnUpdate.Location = new System.Drawing.Point(263, 215);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(100, 28);
             this.btnUpdate.TabIndex = 4;
@@ -94,7 +95,7 @@
             // btnDelete
             // 
             this.btnDelete.Location = new System.Drawing.Point(441, 214);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(100, 28);
             this.btnDelete.TabIndex = 5;
@@ -105,7 +106,7 @@
             // btnBack
             // 
             this.btnBack.Location = new System.Drawing.Point(880, 214);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(100, 28);
             this.btnBack.TabIndex = 6;
@@ -133,11 +134,22 @@
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
+            // Home
+            // 
+            this.Home.Location = new System.Drawing.Point(946, 82);
+            this.Home.Name = "Home";
+            this.Home.Size = new System.Drawing.Size(94, 49);
+            this.Home.TabIndex = 41;
+            this.Home.Text = "Home";
+            this.Home.UseVisualStyleBackColor = true;
+            this.Home.Click += new System.EventHandler(this.Home_Click);
+            // 
             // BorrowManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1051, 554);
+            this.Controls.Add(this.Home);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.btnBack);
@@ -147,7 +159,7 @@
             this.Controls.Add(this.lblibrarian);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.gvBorrows);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "BorrowManagement";
             this.Text = "BorrowForm";
             this.Load += new System.EventHandler(this.BorrowForm_Load);
@@ -168,5 +180,6 @@
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button Home;
     }
 }

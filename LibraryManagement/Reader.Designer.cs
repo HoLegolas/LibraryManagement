@@ -153,13 +153,13 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(1216, 306);
+            this.button7.Location = new System.Drawing.Point(1180, 247);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.Size = new System.Drawing.Size(117, 60);
             this.button7.TabIndex = 36;
-            this.button7.Text = "button7";
+            this.button7.Text = "Refresh";
             this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.button7.Click += new System.EventHandler(this.button7_Click_1);
             // 
             // Reader
             // 
