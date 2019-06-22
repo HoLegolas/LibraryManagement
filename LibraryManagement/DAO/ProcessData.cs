@@ -10,9 +10,9 @@ namespace LibraryManagement.DAO
 {
     class ProcessData
     {
-        //static string path = @"Data Source=.\LEO;Initial Catalog=QLThuVien;Integrated Security=True";
+        static string path = @"Data Source=.\LEO;Initial Catalog=QLThuVien;Integrated Security=True";
         //static string path = @"Data Source=.\MSSQLSEVER;Initial Catalog=QLThuVien;Integrated Security=True";
-        static string path = @"Data Source =.\SQLEXPRESS;Initial Catalog = QLThuVien; Integrated Security = True";
+        //static string path = @"Data Source =.\SQLEXPRESS;Initial Catalog = QLThuVien; Integrated Security = True";
         public static DataTable ExcuteQuery(string query, object[] parameters = null)
         {
             DataTable data = new DataTable();

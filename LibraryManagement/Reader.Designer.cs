@@ -49,34 +49,38 @@
             // readerName
             // 
             this.readerName.AutoSize = true;
-            this.readerName.Location = new System.Drawing.Point(93, 27);
+            this.readerName.Location = new System.Drawing.Point(11, 31);
+            this.readerName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.readerName.Name = "readerName";
-            this.readerName.Size = new System.Drawing.Size(46, 17);
+            this.readerName.Size = new System.Drawing.Size(35, 13);
             this.readerName.TabIndex = 13;
             this.readerName.Text = "admin";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 27);
+            this.label2.Location = new System.Drawing.Point(11, 14);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 17);
+            this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 11;
             this.label2.Text = "Name";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtFind
             // 
-            this.txtFind.Location = new System.Drawing.Point(606, 28);
+            this.txtFind.Location = new System.Drawing.Point(454, 23);
+            this.txtFind.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtFind.Name = "txtFind";
-            this.txtFind.Size = new System.Drawing.Size(376, 22);
+            this.txtFind.Size = new System.Drawing.Size(283, 20);
             this.txtFind.TabIndex = 18;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1004, 27);
+            this.button1.Location = new System.Drawing.Point(753, 22);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(56, 19);
             this.button1.TabIndex = 19;
             this.button1.Text = "Tìm";
             this.button1.UseVisualStyleBackColor = true;
@@ -86,26 +90,29 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(482, 27);
+            this.label7.Location = new System.Drawing.Point(362, 22);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(100, 25);
+            this.label7.Size = new System.Drawing.Size(80, 20);
             this.label7.TabIndex = 28;
             this.label7.Text = "Tìm sách";
             // 
             // sachView
             // 
             this.sachView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.sachView.Location = new System.Drawing.Point(43, 139);
+            this.sachView.Location = new System.Drawing.Point(11, 132);
+            this.sachView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sachView.Name = "sachView";
             this.sachView.RowTemplate.Height = 24;
-            this.sachView.Size = new System.Drawing.Size(1036, 404);
+            this.sachView.Size = new System.Drawing.Size(1410, 330);
             this.sachView.TabIndex = 29;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(43, 86);
+            this.button3.Location = new System.Drawing.Point(32, 70);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(153, 47);
+            this.button3.Size = new System.Drawing.Size(115, 38);
             this.button3.TabIndex = 31;
             this.button3.Text = "Tiểu thuyết";
             this.button3.UseVisualStyleBackColor = true;
@@ -113,9 +120,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(334, 86);
+            this.button2.Location = new System.Drawing.Point(217, 70);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(153, 47);
+            this.button2.Size = new System.Drawing.Size(115, 38);
             this.button2.TabIndex = 32;
             this.button2.Text = "Khoa học";
             this.button2.UseVisualStyleBackColor = true;
@@ -123,9 +131,10 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(632, 86);
+            this.button4.Location = new System.Drawing.Point(402, 70);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(153, 47);
+            this.button4.Size = new System.Drawing.Size(115, 38);
             this.button4.TabIndex = 33;
             this.button4.Text = "Ngoại ngữ";
             this.button4.UseVisualStyleBackColor = true;
@@ -133,9 +142,10 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(926, 86);
+            this.button5.Location = new System.Drawing.Point(593, 70);
+            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(153, 47);
+            this.button5.Size = new System.Drawing.Size(115, 38);
             this.button5.TabIndex = 34;
             this.button5.Text = "Truyện tranh";
             this.button5.UseVisualStyleBackColor = true;
@@ -143,19 +153,21 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(165, 17);
+            this.button6.Location = new System.Drawing.Point(68, 16);
+            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(83, 37);
+            this.button6.Size = new System.Drawing.Size(79, 30);
             this.button6.TabIndex = 35;
-            this.button6.Text = "Sign in";
+            this.button6.Text = "Đăng nhập";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(1180, 247);
+            this.button7.Location = new System.Drawing.Point(1342, 70);
+            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(117, 60);
+            this.button7.Size = new System.Drawing.Size(79, 38);
             this.button7.TabIndex = 36;
             this.button7.Text = "Refresh";
             this.button7.UseVisualStyleBackColor = true;
@@ -163,10 +175,10 @@
             // 
             // Reader
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1364, 582);
+            this.ClientSize = new System.Drawing.Size(1432, 473);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -179,6 +191,7 @@
             this.Controls.Add(this.txtFind);
             this.Controls.Add(this.readerName);
             this.Controls.Add(this.label2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Reader";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reader";

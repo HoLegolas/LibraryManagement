@@ -96,7 +96,7 @@ namespace LibraryManagement
             var adrForm = new StatisticForm();
             this.Hide();
             adrForm.ShowDialog();
-            this.Close();
+            this.Show();
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -104,7 +104,7 @@ namespace LibraryManagement
             var adrForm = new LibraryManagement();
             this.Hide();
             adrForm.ShowDialog();
-            this.Close();
+            this.Show();
         }
 
         private void button7_Click_1(object sender, EventArgs e)
